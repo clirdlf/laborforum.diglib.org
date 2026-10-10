@@ -96,5 +96,7 @@
       "title": "Seeking funded participants for Collective Responsibility"
     }
   ],
-  "shortcodes": []
+  "shortcodes": [],
+  "publicFixture": "migration/published-source.xml",
+  "publicFixtureSha256": "82de972694fcb3007bcd2f9ab564714bd775ee3e19cfcc83c4939fa8ce139718"
 }

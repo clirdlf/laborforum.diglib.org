@@ -3,3 +3,5 @@ _site/
 .superpowers/
 .worktrees/
 .DS_Store
+# Keep the original WXR private; CI uses migration/published-source.xml.
+data/*.xml

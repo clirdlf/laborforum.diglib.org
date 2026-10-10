@@ -17,9 +17,11 @@ for(const [path,{html,$}]of documents){comments+=$('.comment-body').length;if($(
 }
 if(comments!==inventory.approvedComments)errors.push(`Approved comment count ${comments} differs from ${inventory.approvedComments}`);
 for(const a of assets){if(a.status==='unavailable')errors.push(`Unavailable source asset ${a.sourceUrl}`);else if(!(await stat(resolve(root,'.'+a.localPath)).catch(()=>null))?.isFile())errors.push(`Missing archived asset ${a.localPath}`);}
-const sha=createHash('sha256').update(await readFile(inventory.source)).digest('hex');if(sha!==inventory.sha256)errors.push('Original XML changed');
-const xml=await readFile(inventory.source,'utf8');const privateValues=[...xml.matchAll(/<wp:comment_(?:author_email|author_IP)><!\[CDATA\[(.*?)\]\]><\/wp:comment_/g)].map(m=>m[1]).filter(Boolean);
+const fixture=await readFile(inventory.publicFixture);if(createHash('sha256').update(fixture).digest('hex')!==inventory.publicFixtureSha256)errors.push('Published source fixture changed');
+const original=await readFile(inventory.source).catch(error=>{if(error.code!=='ENOENT')throw error;return null;});
+if(original && createHash('sha256').update(original).digest('hex')!==inventory.sha256)errors.push('Original XML changed');
+const xml=(original||fixture).toString();const privateValues=[...xml.matchAll(/<wp:comment_(?:author_email|author_IP)><!\[CDATA\[(.*?)\]\]><\/wp:comment_/g)].map(m=>m[1]).filter(Boolean);
 for(const [path,{html}] of documents)for(const v of privateValues)if(html.includes(v))errors.push(`Private commenter data in ${path.slice(root.length)}`);
 console.log(`${archive.pages.length} pages, ${archive.posts.length} posts, ${comments} approved discussion record; ${documents.size} HTML routes; ${assets.length} local assets.`);
 console.log(`${external.size} external destinations retained (not fetched during verification).`);
-if(errors.length){for(const error of errors)console.error(error);process.exitCode=1;}else console.log('Archive verification passed: source unchanged; internal links, fragments, assets, privacy, and forms checked.');
+if(errors.length){for(const error of errors)console.error(error);process.exitCode=1;}else console.log('Archive verification passed: available source checksums, internal links, fragments, assets, privacy, and forms checked.');

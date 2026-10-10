@@ -34,3 +34,12 @@ Implementation in progress. Final checks and any unavailable resources will be r
 - Mobile menu opens seven navigation links; Tab reaches About; Escape closes the menu and returns focus to its button.
 - Accessibility toolbar opens/closes with correct expanded state. Increase Text changes root font from 16px to 18px, High Contrast toggles, Reset restores 16px and the original palette; Escape closes the panel and returns focus.
 - Mobile page requests only local assets; no console errors on tested search flows.
+
+## Final acceptance checks
+
+- Toolchain: Node.js 24.14.0, pnpm 12.10.1, Eleventy 3.1.6; direct dependency versions and lockfile are pinned.
+- Desktop white-paper page at 1280px: header and content bounds/height match source exactly. Desktop post body at 1280px and mobile post/About bodies at 390px also match exactly, with no horizontal overflow. Archived approved-discussion links and footer text are intentional additions.
+- The original XML remains unchanged locally and is ignored by Git. A filtered published-source fixture provides the same published bodies to CI without publishing rejected discussion or private metadata.
+- Frozen-lockfile installation, build, all 15 tests, and archive verification pass in a clean copied checkout without the original export. The clean installation reused all 157 cached packages with zero downloads; content/asset builds made no remote requests.
+- Prepared the GitHub Actions Pages workflow, custom-domain CNAME, 404 page, search index, and README. The workflow only deploys main; pull requests run build/checks without deployment.
+- No source resources remain unavailable. Remote pushes, GitHub configuration, DNS changes, certificate provisioning, and final-domain deployment validation have not been performed.

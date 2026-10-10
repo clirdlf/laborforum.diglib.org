@@ -18,7 +18,7 @@ test('contact carries inactive-form notice and source downloads are local',()=>{
  assert.ok(existsSync('_site/404.html'));
 });
 test('rendered recovery retains export body text including Cloudflare-protected emails',async()=>{
- const {parseWordPress}=await import('../scripts/lib/wordpress.mjs');const src=parseWordPress(readFileSync('data/collectiveresponsibility.WordPress.2026-10-10.xml','utf8'));
+ const {parseWordPress}=await import('../scripts/lib/wordpress.mjs');const src=parseWordPress(readFileSync(existsSync('data/collectiveresponsibility.WordPress.2026-10-10.xml')?'data/collectiveresponsibility.WordPress.2026-10-10.xml':'migration/published-source.xml','utf8'));
  const norm=s=>load(s).text().replace(/[‘’]/g,"'").replace(/[“”]/g,'"').replace(/…/g,'...').replace(/\s+/g,'').trim();
  for(const r of [...src.pages,...src.posts].filter(r=>r.url!=='/posts/')){const text=norm(load(read(r.url))('.entry-content').html());assert.ok(text.startsWith(norm(r.html)),r.url);assert.equal(read(r.url).includes('data-cfemail'),false);}
 });
