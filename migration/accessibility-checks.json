@@ -1,0 +1,191 @@
+{
+  "date": "2026-10-10",
+  "tool": "axe-core 4.10.3",
+  "tags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21aa",
+    "wcag22aa",
+    "best-practice"
+  ],
+  "viewport": "320x900",
+  "results": [
+    {
+      "url": "/posts/",
+      "violations": [],
+      "incomplete": [],
+      "textOverflow": false,
+      "spacingOverflow": false
+    },
+    {
+      "url": "/",
+      "violations": [],
+      "incomplete": [],
+      "textOverflow": false,
+      "spacingOverflow": false
+    },
+    {
+      "url": "/about/",
+      "violations": [],
+      "incomplete": [],
+      "textOverflow": false,
+      "spacingOverflow": false
+    },
+    {
+      "url": "/project-team/",
+      "violations": [],
+      "incomplete": [],
+      "textOverflow": false,
+      "spacingOverflow": false
+    },
+    {
+      "url": "/contact/",
+      "violations": [],
+      "incomplete": [],
+      "textOverflow": false,
+      "spacingOverflow": false
+    },
+    {
+      "url": "/forum-1/",
+      "violations": [],
+      "incomplete": [],
+      "textOverflow": false,
+      "spacingOverflow": false
+    },
+    {
+      "url": "/forum-2/",
+      "violations": [],
+      "incomplete": [],
+      "textOverflow": false,
+      "spacingOverflow": false
+    },
+    {
+      "url": "/code-of-conduct-and-community-agreement/",
+      "violations": [],
+      "incomplete": [],
+      "textOverflow": false,
+      "spacingOverflow": false
+    },
+    {
+      "url": "/white-paper/",
+      "violations": [],
+      "incomplete": [],
+      "textOverflow": false,
+      "spacingOverflow": false
+    },
+    {
+      "url": "/handbook/",
+      "violations": [],
+      "incomplete": [],
+      "textOverflow": false,
+      "spacingOverflow": false
+    },
+    {
+      "url": "/2019/08/14/reflections-on-temporary-appointments-and-innovation-diversity-culture-in-libraries-and-archives/",
+      "violations": [],
+      "incomplete": [],
+      "textOverflow": false,
+      "spacingOverflow": false
+    },
+    {
+      "url": "/2019/07/23/on-listening-reflections-on-the-first-collective-responsibility-forum/",
+      "violations": [],
+      "incomplete": [],
+      "textOverflow": false,
+      "spacingOverflow": false
+    },
+    {
+      "url": "/2019/07/08/from-the-recession-forward/",
+      "violations": [],
+      "incomplete": [],
+      "textOverflow": false,
+      "spacingOverflow": false
+    },
+    {
+      "url": "/2019/06/24/developing-imagination/",
+      "violations": [],
+      "incomplete": [],
+      "textOverflow": false,
+      "spacingOverflow": false
+    },
+    {
+      "url": "/2019/06/19/fostering-transparency-in-grant-writing-reflections-on-collective-responsibility-forum-1/",
+      "violations": [],
+      "incomplete": [],
+      "textOverflow": false,
+      "spacingOverflow": false
+    },
+    {
+      "url": "/2019/01/10/forum-1-scheduled/",
+      "violations": [],
+      "incomplete": [],
+      "textOverflow": false,
+      "spacingOverflow": false
+    },
+    {
+      "url": "/2018/11/09/survey-on-experiences-of-grant-funded-digital-lam-workers/",
+      "violations": [],
+      "incomplete": [],
+      "textOverflow": false,
+      "spacingOverflow": false
+    },
+    {
+      "url": "/2018/10/25/seeking-funded-participants-for-collective-responsibility/",
+      "violations": [],
+      "incomplete": [],
+      "textOverflow": false,
+      "spacingOverflow": false
+    },
+    {
+      "url": "/search/",
+      "violations": [],
+      "incomplete": [],
+      "textOverflow": false,
+      "spacingOverflow": false
+    },
+    {
+      "url": "/404.html",
+      "violations": [],
+      "incomplete": [],
+      "textOverflow": false,
+      "spacingOverflow": false
+    },
+    {
+      "url": "/category/attendee-post/",
+      "violations": [],
+      "incomplete": [],
+      "textOverflow": false,
+      "spacingOverflow": false
+    },
+    {
+      "url": "/category/logistics/",
+      "violations": [],
+      "incomplete": [],
+      "textOverflow": false,
+      "spacingOverflow": false
+    },
+    {
+      "url": "/author/participant/",
+      "violations": [],
+      "incomplete": [],
+      "textOverflow": false,
+      "spacingOverflow": false
+    },
+    {
+      "url": "/author/ruthtillman/",
+      "violations": [],
+      "incomplete": [],
+      "textOverflow": false,
+      "spacingOverflow": false
+    }
+  ],
+  "desktopHomepage": {
+    "viewport": "1280x900",
+    "violations": [],
+    "incomplete": []
+  },
+  "limitations": [
+    "Automated scans and browser checks do not establish full WCAG conformance.",
+    "Screen-reader testing and detailed PDF tag/reading-order checks remain outstanding."
+  ]
+}

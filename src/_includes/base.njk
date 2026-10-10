@@ -14,17 +14,19 @@
 </head>
 <body class="group-blog nucleus {{ 'single' if record.type == 'post' else 'page' }} {{ 'archive-listing' if listing }}">
 <div id="page" class="site">
-<div class="wrapper-top-bar"><div class="inner-top-bar"><div class="top-bar">
+<div class="wrapper-top-bar" role="region" aria-label="Project description"><div class="inner-top-bar"><div class="top-bar">
 <div class="top-bar-name-and-description-site"><span class="top-bar-site-description">{{ archive.presentation.description }}</span></div>
 <div class="top-bar-iconos-sociales-buscar"><a class="top-bar-icono-buscar" href="/search/" aria-label="Search the archive"><span class="gener-icon search" aria-hidden="true"></span></a></div>
 </div></div></div>
 <div class="site-inner">
-<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
 <header id="masthead" class="site-header">
+<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+<p class="archive-banner">Permanent archive: this project information is historical. Participation requests and surveys are no longer active.</p>
 <div class="site-header-main"><div class="site-branding"><div class="wrapper-titulo-descripcion"><p class="site-title"><a href="/" rel="home">Collective Responsibility</a></p></div></div>
 <button id="menu-toggle" class="menu-toggle" aria-controls="site-header-menu" aria-expanded="false">Menu</button>
 <div id="site-header-menu" class="site-header-menu"><nav id="site-navigation" class="main-navigation" aria-label="Primary Menu"><div class="menu-header-container"><ul class="primary-menu">
 {% for link in archive.navigation %}<li class="menu-item {{ 'current-menu-item' if page.url == link.url }}"><a href="{{ link.url }}"{% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.title }}</a></li>{% endfor %}
+<li class="menu-item archive-search-nav {{ 'current-menu-item' if page.url == '/search/' }}"><a href="/search/"{% if page.url == '/search/' %} aria-current="page"{% endif %}>Search</a></li>
 </ul></div></nav></div></div>
 <div class="header-image"><a href="/"><img src="{{ archive.presentation.banner }}" width="1260" height="294" alt="Collective Responsibility"></a></div>
 </header>
@@ -36,5 +38,4 @@
 </div></div>
 <footer id="colophon"><div class="wrapper-footer-fuera-del-inner"><hr class="hr-oscura"><div class="site-info"><div class="site-info-item site-info-uno"></div><div class="site-info-item site-info-dos"></div><div class="site-info-item site-info-tres"><a href="https://galussothemes.com/wordpress-themes/nucleus/">Nucleus</a> by GalussoThemes.com<br>Permanent archive · Built with <a href="https://www.11ty.dev/">Eleventy</a></div></div></div></footer>
 </div>
-{% include 'accessibility.njk' %}
 </body></html>

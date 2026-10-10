@@ -61,3 +61,26 @@ Decisions made during execution:
 - External destinations are retained as requested; their future availability is outside archive control.
 - Visual comparisons cover recorded desktop/mobile viewports, not every browser. Additional browser-specific differences remain possible.
 - HTML recovery assumes the fixed trusted source export/site, not arbitrary untrusted user submissions. Turning the importer into a public service would require a separate review.
+
+
+## Subsequent archive change
+
+The accessibility tools toolbar was removed at the user’s request. Its template inclusion, browser controls, and dedicated styles are removed. Keyboard navigation, skip links, focus indicators, and mobile-menu Escape handling remain.
+
+## Usability and WCAG remediation
+
+Implemented the user-requested audit fixes:
+
+- Underlined body, comment, funding-widget, and footer links so their purpose does not rely on color alone.
+- Darkened search borders to #767676, set readable placeholder colors, removed the theme's unnecessary input gradient, and provided white footer focus outlines.
+- Added Search to mobile navigation, with current-page identification.
+- Added a prominent permanent-archive notice explaining that participation requests and surveys are historical.
+- Converted Project Team names to H2 sections while retaining their previous visual size; corrected the skipped heading in the participant-nomination post.
+- Reduced each post excerpt to one continuation link with the post title in its accessible name.
+- Corrected invalid list markup in the Recession Forward post, placing its trailing period inside the final list item. Export-text comparison still passes.
+- Placed the description and skip link in named/semantic landmarks and gave the sidebar search button a clean accessible name.
+- Added PDF title metadata to all five local documents. qpdf structural checks pass and extracted text is unchanged. The white paper, handbook, and two survey/nomination documents retain their existing tags. The grant proposal remains untagged and needs separate document remediation.
+
+Verification: all 24 HTML routes passed axe-core 4.10.3 scans for WCAG A/AA through 2.2 and best-practice rules with zero violations and zero incomplete checks at 320px. All routes also remained within the viewport at 200% text size and the WCAG text-spacing settings. Desktop homepage scan at 1280px also passed; footer outlines are white, field borders are #767676, and inline links are underlined. The build, archive verifier, and all 18 regression tests pass. Detailed machine-readable scan results are in `migration/accessibility-checks.json`.
+
+These results do not constitute full WCAG conformance. Screen-reader testing and PDF reading-order/tag-tree/link-annotation assessment remain outstanding.

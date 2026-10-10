@@ -39,7 +39,9 @@
       "WordPress attachment",
       "/2018/10/25/seeking-funded-participants-for-collective-responsibility/"
     ],
-    "status": "existing"
+    "status": "existing",
+    "metadataTitle": "Collective Responsibility: Participant Self-Nomination",
+    "archivalModification": "Added PDF document-title metadata; extracted text unchanged."
   },
   {
     "sourceUrl": "https://laborforum.diglib.org/wp-content/uploads/sites/26/2018/10/Collective_Responsibility_Worker_Experience_Survey.pdf",
@@ -48,7 +50,9 @@
       "WordPress attachment",
       "/2018/11/09/survey-on-experiences-of-grant-funded-digital-lam-workers/"
     ],
-    "status": "existing"
+    "status": "existing",
+    "metadataTitle": "Collective Responsibility: Worker Experience Survey",
+    "archivalModification": "Added PDF document-title metadata; extracted text unchanged."
   },
   {
     "sourceUrl": "https://laborforum.diglib.org/wp-content/uploads/sites/26/2018/10/cropped-digitized-by-google-1.jpg",
@@ -66,7 +70,9 @@
       "WordPress attachment",
       "/white-paper/"
     ],
-    "status": "existing"
+    "status": "existing",
+    "metadataTitle": "Collective Responsibility: Seeking Equity for Contingent Labor in Libraries, Archives, and Museums",
+    "archivalModification": "Added PDF document-title metadata; extracted text unchanged."
   },
   {
     "sourceUrl": "https://secure.gravatar.com/avatar/dda04e5dae72481380f8709286caf66b887b2c898b21fb6713fdb0f406941eec?s=49&d=mm&r=g",
@@ -96,7 +102,9 @@
     "referencedBy": [
       "/handbook/"
     ],
-    "status": "existing"
+    "status": "existing",
+    "metadataTitle": "Collective Equity: A Handbook for Designing and Evaluating Grant-Funded Positions",
+    "archivalModification": "Added PDF document-title metadata; extracted text unchanged."
   },
   {
     "sourceUrl": "https://www.imls.gov/sites/default/files/grants/lg-73-18-0236-18/proposals/lg-73-18-0236-18-full-proposal.pdf",
@@ -104,7 +112,9 @@
     "referencedBy": [
       "/2019/06/19/fostering-transparency-in-grant-writing-reflections-on-collective-responsibility-forum-1/"
     ],
-    "status": "existing"
+    "status": "existing",
+    "metadataTitle": "Collective Responsibility: IMLS Grant Proposal LG-73-18-0236",
+    "archivalModification": "Added PDF document-title metadata; extracted text unchanged."
   },
   {
     "sourceUrl": "https://laborforum.diglib.org/wp-content/themes/nucleus/style.css",
