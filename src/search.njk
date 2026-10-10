@@ -3,4 +3,9 @@ layout: base.njk
 title: Search
 permalink: /search/
 ---
-<article class="page type-page"><header class="entry-header"><h1 class="entry-title">Search</h1></header><div class="entry-content"><p>Search the archive.</p></div></article>
+<article class="page type-page"><header class="entry-header"><h1 class="entry-title">Search</h1></header><div class="entry-content">
+<form role="search" id="archive-search" action="/search/" method="get"><label for="archive-query">Search the archive</label><div class="archive-search-controls"><input id="archive-query" name="q" type="search" placeholder="Search …"><button type="submit">Search</button></div></form>
+<p id="search-status" role="status" aria-live="polite">Enter a word or phrase to search published pages and posts.</p><ol id="search-results"></ol>
+<noscript><p>Search requires JavaScript. You can browse the <a href="/posts/">posts</a> or use the navigation to find pages.</p></noscript>
+</div></article>
+<script type="module" src="/assets/js/search.js"></script>

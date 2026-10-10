@@ -26,3 +26,11 @@ Implementation in progress. Final checks and any unavailable resources will be r
 - Homepage comparison at a 1094px desktop viewport: header, title, content, sidebar, and body text bounding boxes match the live site exactly; original theme CSS and local font files are used. Minor widget icon shapes are recreated with local SVG data.
 - At a 390px viewport, body text width and wrapping match the source and there is no horizontal overflow. Mobile menu collapse is completed in the interaction task.
 - Build and 11 tests pass; verification checks 10 pages, 8 posts, 1 approved pingback, local assets, internal links/fragments, forms, original XML checksum, and private commenter values.
+
+## Interaction checks
+
+- Static search indexes all 18 published pages/posts and finds title/body matches; verified empty, punctuation-only, no-result, HTML-shaped queries, and multiple submissions before an index response.
+- A browser regression exposed mixed results after rapid submissions; the latest request now owns rendering. Repeated the same browser case: one “Developing Imagination” result and matching result count.
+- Mobile menu opens seven navigation links; Tab reaches About; Escape closes the menu and returns focus to its button.
+- Accessibility toolbar opens/closes with correct expanded state. Increase Text changes root font from 16px to 18px, High Contrast toggles, Reset restores 16px and the original palette; Escape closes the panel and returns focus.
+- Mobile page requests only local assets; no console errors on tested search flows.
