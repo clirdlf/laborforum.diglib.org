@@ -18,3 +18,11 @@ Source: WordPress export dated October 10, 2026; live site inspected October 10,
 ## Validation
 
 Implementation in progress. Final checks and any unavailable resources will be recorded here.
+
+## Recovery and rendering checks
+
+- Recovered all 30 assets: original banner/funding imagery, attachment PDFs, the directly linked handbook and full grant proposal, fonts, author avatars, and Nucleus styles/icon files. No unavailable resources.
+- Compared all 17 non-listing page/post bodies against the original export after normalizing whitespace and WordPress smart punctuation. All match; Cloudflare-obscured public email addresses are decoded locally and the export's visible HTTP link label is retained while its download destination is local.
+- Homepage comparison at a 1094px desktop viewport: header, title, content, sidebar, and body text bounding boxes match the live site exactly; original theme CSS and local font files are used. Minor widget icon shapes are recreated with local SVG data.
+- At a 390px viewport, body text width and wrapping match the source and there is no horizontal overflow. Mobile menu collapse is completed in the interaction task.
+- Build and 11 tests pass; verification checks 10 pages, 8 posts, 1 approved pingback, local assets, internal links/fragments, forms, original XML checksum, and private commenter values.

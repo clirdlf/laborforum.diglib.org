@@ -12,7 +12,11 @@ for(const record of records) {
  if(record.url==='/') home=$;
  const content=$(`#post-${record.id} > .entry-content`).first();
  if(record.url!=='/posts/' && !content.length)throw new Error(`Missing body ${record.url}`);
- if(content.length){content.find('script,style,form,iframe').remove();record.html=content.html().trim();}
+ if(content.length){
+  content.find('script,style,form,iframe').remove();
+  content.find('a').each((_,el)=>{const label=$(el).text();if(label.startsWith('https://') && record.html.includes(label.replace('https://','http://')))$(el).text(label.replace('https://','http://'));});
+  record.html=content.html().trim();
+ }
  if(record.type==='post'){
   record.authorName=$('.entry-footer .author .fn').first().text()||record.author;
   record.authorUrl=new URL($('.entry-footer .author .fn').first().attr('href')||'/',origin).pathname;

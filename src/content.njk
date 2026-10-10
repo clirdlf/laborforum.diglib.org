@@ -1,0 +1,15 @@
+---
+layout: base.njk
+pagination:
+  data: records
+  size: 1
+  alias: record
+permalink: "{{ record.url }}"
+---
+<article id="post-{{ record.id }}" class="{{ record.type }} type-{{ record.type }} status-publish hentry">
+<header class="entry-header"><h1 class="entry-title">{{ record.title }}</h1></header>
+<div class="entry-content">{{ record.html | archiveHtml | safe }}{% if record.url == '/contact/' %}<p class="archive-notice">This contact form is no longer active. This site is preserved as a permanent archive.</p>{% endif %}</div>
+{% if record.type == 'post' %}{% include 'post-meta.njk' %}{% endif %}
+</article>
+{% if record.type == 'post' %}{% set adjacent = record | neighbors %}<nav class="navigation post-navigation" aria-label="Post navigation"><h2 class="screen-reader-text">Post navigation</h2><div class="nav-links">{% if adjacent.previous %}<div class="nav-previous"><a href="{{ adjacent.previous.url }}" rel="prev"><span class="meta-nav">Previous</span><span class="post-title">{{ adjacent.previous.title }}</span></a></div>{% endif %}{% if adjacent.next %}<div class="nav-next"><a href="{{ adjacent.next.url }}" rel="next"><span class="meta-nav">Next</span><span class="post-title">{{ adjacent.next.title }}</span></a></div>{% endif %}</div></nav>{% endif %}
+{% include 'comments.njk' %}

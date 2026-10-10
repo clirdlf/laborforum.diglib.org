@@ -5,9 +5,7 @@
     "referencedBy": [
       "WordPress attachment"
     ],
-    "status": "downloaded",
-    "bytes": 88732,
-    "contentType": "image/jpeg"
+    "status": "existing"
   },
   {
     "sourceUrl": "https://laborforum.diglib.org/wp-content/uploads/sites/26/2018/10/cropped-digitized-by-google.jpg",
@@ -15,9 +13,7 @@
     "referencedBy": [
       "WordPress attachment"
     ],
-    "status": "downloaded",
-    "bytes": 148466,
-    "contentType": "image/jpeg"
+    "status": "existing"
   },
   {
     "sourceUrl": "https://laborforum.diglib.org/wp-content/uploads/sites/26/2018/10/imls_logo_black.jpg",
@@ -25,9 +21,7 @@
     "referencedBy": [
       "WordPress attachment"
     ],
-    "status": "downloaded",
-    "bytes": 25019,
-    "contentType": "image/jpeg"
+    "status": "existing"
   },
   {
     "sourceUrl": "https://laborforum.diglib.org/wp-content/uploads/sites/26/2018/10/imls_logo_black-1-e1540408024261.jpg",
@@ -36,9 +30,7 @@
       "WordPress attachment",
       "Shared presentation"
     ],
-    "status": "downloaded",
-    "bytes": 9854,
-    "contentType": "image/jpeg"
+    "status": "existing"
   },
   {
     "sourceUrl": "https://laborforum.diglib.org/wp-content/uploads/sites/26/2018/10/Collective_Responsibility_Participant_Self-Nomination.pdf",
@@ -47,9 +39,7 @@
       "WordPress attachment",
       "/2018/10/25/seeking-funded-participants-for-collective-responsibility/"
     ],
-    "status": "downloaded",
-    "bytes": 193428,
-    "contentType": "application/pdf"
+    "status": "existing"
   },
   {
     "sourceUrl": "https://laborforum.diglib.org/wp-content/uploads/sites/26/2018/10/Collective_Responsibility_Worker_Experience_Survey.pdf",
@@ -58,9 +48,7 @@
       "WordPress attachment",
       "/2018/11/09/survey-on-experiences-of-grant-funded-digital-lam-workers/"
     ],
-    "status": "downloaded",
-    "bytes": 318609,
-    "contentType": "application/pdf"
+    "status": "existing"
   },
   {
     "sourceUrl": "https://laborforum.diglib.org/wp-content/uploads/sites/26/2018/10/cropped-digitized-by-google-1.jpg",
@@ -69,9 +57,7 @@
       "WordPress attachment",
       "Shared presentation"
     ],
-    "status": "downloaded",
-    "bytes": 36187,
-    "contentType": "image/jpeg"
+    "status": "existing"
   },
   {
     "sourceUrl": "https://laborforum.diglib.org/wp-content/uploads/sites/26/2019/09/Collective_Responsibility_White_Paper.pdf",
@@ -80,9 +66,7 @@
       "WordPress attachment",
       "/white-paper/"
     ],
-    "status": "downloaded",
-    "bytes": 625744,
-    "contentType": "application/pdf"
+    "status": "existing"
   },
   {
     "sourceUrl": "https://secure.gravatar.com/avatar/dda04e5dae72481380f8709286caf66b887b2c898b21fb6713fdb0f406941eec?s=49&d=mm&r=g",
@@ -94,9 +78,7 @@
       "/2019/06/24/developing-imagination/",
       "/2019/06/19/fostering-transparency-in-grant-writing-reflections-on-collective-responsibility-forum-1/"
     ],
-    "status": "downloaded",
-    "bytes": 1085,
-    "contentType": "image/jpeg"
+    "status": "existing"
   },
   {
     "sourceUrl": "https://secure.gravatar.com/avatar/8a95fbcf99a562d622e2d6c6f0a8c3d96e4597478a34848a2268147490ce3d32?s=49&d=mm&r=g",
@@ -106,9 +88,7 @@
       "/2018/11/09/survey-on-experiences-of-grant-funded-digital-lam-workers/",
       "/2018/10/25/seeking-funded-participants-for-collective-responsibility/"
     ],
-    "status": "downloaded",
-    "bytes": 5987,
-    "contentType": "image/png"
+    "status": "existing"
   },
   {
     "sourceUrl": "https://toolkit.dobetterlabor.com/Collective_Equity_Handbook.pdf",
@@ -116,9 +96,7 @@
     "referencedBy": [
       "/handbook/"
     ],
-    "status": "downloaded",
-    "bytes": 953857,
-    "contentType": "application/pdf"
+    "status": "existing"
   },
   {
     "sourceUrl": "https://www.imls.gov/sites/default/files/grants/lg-73-18-0236-18/proposals/lg-73-18-0236-18-full-proposal.pdf",
@@ -126,9 +104,7 @@
     "referencedBy": [
       "/2019/06/19/fostering-transparency-in-grant-writing-reflections-on-collective-responsibility-forum-1/"
     ],
-    "status": "downloaded",
-    "bytes": 566701,
-    "contentType": "application/pdf"
+    "status": "existing"
   },
   {
     "sourceUrl": "https://laborforum.diglib.org/wp-content/themes/nucleus/style.css",
@@ -136,9 +112,7 @@
     "referencedBy": [
       "Nucleus theme"
     ],
-    "status": "downloaded",
-    "bytes": 87443,
-    "contentType": "text/css"
+    "status": "existing"
   },
   {
     "sourceUrl": "https://laborforum.diglib.org/wp-content/themes/nucleus/css/blocks.css",
@@ -146,9 +120,7 @@
     "referencedBy": [
       "Nucleus theme"
     ],
-    "status": "downloaded",
-    "bytes": 1998,
-    "contentType": "text/css"
+    "status": "existing"
   },
   {
     "sourceUrl": "https://laborforum.diglib.org/wp-content/themes/nucleus/genericons/genericons.css",
@@ -156,9 +128,7 @@
     "referencedBy": [
       "Nucleus theme"
     ],
-    "status": "downloaded",
-    "bytes": 28266,
-    "contentType": "text/css"
+    "status": "existing"
   },
   {
     "sourceUrl": "https://laborforum.diglib.org/wp-content/themes/nucleus/genericons/Genericons.woff",
@@ -166,9 +136,7 @@
     "referencedBy": [
       "Nucleus theme"
     ],
-    "status": "downloaded",
-    "bytes": 13988,
-    "contentType": "font/woff"
+    "status": "existing"
   },
   {
     "sourceUrl": "https://laborforum.diglib.org/wp-content/themes/nucleus/genericons/Genericons.ttf",
@@ -176,9 +144,7 @@
     "referencedBy": [
       "Nucleus theme"
     ],
-    "status": "downloaded",
-    "bytes": 22188,
-    "contentType": "font/ttf"
+    "status": "existing"
   },
   {
     "sourceUrl": "https://fonts.gstatic.com/s/inconsolata/v37/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp4U8WRP2kg.ttf",
@@ -186,9 +152,7 @@
     "referencedBy": [
       "Google Fonts stylesheet"
     ],
-    "status": "downloaded",
-    "bytes": 60836,
-    "contentType": "font/ttf"
+    "status": "existing"
   },
   {
     "sourceUrl": "https://fonts.gstatic.com/s/merriweather/v33/u-4B0qyriQwlOrhSvowK_l5-eTxCVx0ZbwLvKH2Gk9hLmp0v5yA-xXPqCzLvPee1XYk_XSf-FmTCUG35AvQ.ttf",
@@ -196,9 +160,7 @@
     "referencedBy": [
       "Google Fonts stylesheet"
     ],
-    "status": "downloaded",
-    "bytes": 325164,
-    "contentType": "font/ttf"
+    "status": "existing"
   },
   {
     "sourceUrl": "https://fonts.gstatic.com/s/merriweather/v33/u-4B0qyriQwlOrhSvowK_l5-eTxCVx0ZbwLvKH2Gk9hLmp0v5yA-xXPqCzLvPee1XYk_XSf-FmQlV235AvQ.ttf",
@@ -206,9 +168,7 @@
     "referencedBy": [
       "Google Fonts stylesheet"
     ],
-    "status": "downloaded",
-    "bytes": 325296,
-    "contentType": "font/ttf"
+    "status": "existing"
   },
   {
     "sourceUrl": "https://fonts.gstatic.com/s/merriweather/v33/u-4B0qyriQwlOrhSvowK_l5-eTxCVx0ZbwLvKH2Gk9hLmp0v5yA-xXPqCzLvPee1XYk_XSf-FmRrV235AvQ.ttf",
@@ -216,9 +176,7 @@
     "referencedBy": [
       "Google Fonts stylesheet"
     ],
-    "status": "downloaded",
-    "bytes": 325196,
-    "contentType": "font/ttf"
+    "status": "existing"
   },
   {
     "sourceUrl": "https://fonts.gstatic.com/s/merriweather/v33/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDr3icaGl3w.ttf",
@@ -226,9 +184,7 @@
     "referencedBy": [
       "Google Fonts stylesheet"
     ],
-    "status": "downloaded",
-    "bytes": 320716,
-    "contentType": "font/ttf"
+    "status": "existing"
   },
   {
     "sourceUrl": "https://fonts.gstatic.com/s/merriweather/v33/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDrOSAaGl3w.ttf",
@@ -236,9 +192,7 @@
     "referencedBy": [
       "Google Fonts stylesheet"
     ],
-    "status": "downloaded",
-    "bytes": 320784,
-    "contentType": "font/ttf"
+    "status": "existing"
   },
   {
     "sourceUrl": "https://fonts.gstatic.com/s/merriweather/v33/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDrdyAaGl3w.ttf",
@@ -246,9 +200,7 @@
     "referencedBy": [
       "Google Fonts stylesheet"
     ],
-    "status": "downloaded",
-    "bytes": 320508,
-    "contentType": "font/ttf"
+    "status": "existing"
   },
   {
     "sourceUrl": "https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw3aX8.ttf",
@@ -256,9 +208,7 @@
     "referencedBy": [
       "Google Fonts stylesheet"
     ],
-    "status": "downloaded",
-    "bytes": 123332,
-    "contentType": "font/ttf"
+    "status": "existing"
   },
   {
     "sourceUrl": "https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w3aX8.ttf",
@@ -266,9 +216,7 @@
     "referencedBy": [
       "Google Fonts stylesheet"
     ],
-    "status": "downloaded",
-    "bytes": 124924,
-    "contentType": "font/ttf"
+    "status": "existing"
   },
   {
     "sourceUrl": "https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWV4exQ.ttf",
@@ -276,9 +224,7 @@
     "referencedBy": [
       "Google Fonts stylesheet"
     ],
-    "status": "downloaded",
-    "bytes": 52624,
-    "contentType": "font/ttf"
+    "status": "existing"
   },
   {
     "sourceUrl": "https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjWV4exQ.ttf",
@@ -286,9 +232,7 @@
     "referencedBy": [
       "Google Fonts stylesheet"
     ],
-    "status": "downloaded",
-    "bytes": 52508,
-    "contentType": "font/ttf"
+    "status": "existing"
   },
   {
     "sourceUrl": "https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4uaVc.ttf",
@@ -296,9 +240,7 @@
     "referencedBy": [
       "Google Fonts stylesheet"
     ],
-    "status": "downloaded",
-    "bytes": 51144,
-    "contentType": "font/ttf"
+    "status": "existing"
   },
   {
     "sourceUrl": "https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4uaVc.ttf",
@@ -306,8 +248,6 @@
     "referencedBy": [
       "Google Fonts stylesheet"
     ],
-    "status": "downloaded",
-    "bytes": 51052,
-    "contentType": "font/ttf"
+    "status": "existing"
   }
 ]

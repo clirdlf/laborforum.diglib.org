@@ -1,0 +1,6 @@
+<footer class="entry-footer">
+<span class="byline"><span class="author vcard">{% if record.avatar %}<img class="avatar" src="{{ record.avatar }}" alt="" width="49" height="49">{% endif %}<span class="screen-reader-text">Author </span><a href="{{ record.authorUrl }}">{{ record.authorName }}</a></span></span>
+<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="{{ record.url }}"><time datetime="{{ record.date | isoDate }}">{{ record.date | displayDate }}</time></a></span>
+<span class="cat-links"><span class="screen-reader-text">Categories </span>{% for c in record.categories %}<a href="/category/{{ c.slug }}/">{{ c.name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</span>
+{% if record.comments.length %}<span class="comments-link"><a href="{{ record.url }}#comments">{{ record.comments.length }} approved comment</a></span>{% endif %}
+</footer>
