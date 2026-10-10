@@ -1,0 +1,100 @@
+{
+  "source": "data/collectiveresponsibility.WordPress.2026-10-10.xml",
+  "sha256": "7becd1a10ac5060610540e3bf353b68c5c4828c4d6e745b11f557c89e203d5d7",
+  "publishedPages": 10,
+  "publishedPosts": 8,
+  "approvedComments": 1,
+  "routes": [
+    {
+      "id": "25",
+      "url": "/posts/",
+      "title": "Posts"
+    },
+    {
+      "id": "28",
+      "url": "/",
+      "title": "Home"
+    },
+    {
+      "id": "22",
+      "url": "/about/",
+      "title": "About"
+    },
+    {
+      "id": "44",
+      "url": "/project-team/",
+      "title": "Project Team"
+    },
+    {
+      "id": "51",
+      "url": "/contact/",
+      "title": "Contact"
+    },
+    {
+      "id": "140",
+      "url": "/forum-1/",
+      "title": "Forum 1: Experience"
+    },
+    {
+      "id": "141",
+      "url": "/forum-2/",
+      "title": "Forum 2: Practices"
+    },
+    {
+      "id": "304",
+      "url": "/code-of-conduct-and-community-agreement/",
+      "title": "Code of Conduct and Community Agreement"
+    },
+    {
+      "id": "888",
+      "url": "/white-paper/",
+      "title": "White Paper"
+    },
+    {
+      "id": "2142",
+      "url": "/handbook/",
+      "title": "Collective Equity: A Handbook for Designing and Evaluating Grant-Funded Positions"
+    },
+    {
+      "id": "772",
+      "url": "/2019/08/14/reflections-on-temporary-appointments-and-innovation-diversity-culture-in-libraries-and-archives/",
+      "title": "Reflections on Temporary Appointments and Innovation/Diversity Culture in Libraries and Archives"
+    },
+    {
+      "id": "703",
+      "url": "/2019/07/23/on-listening-reflections-on-the-first-collective-responsibility-forum/",
+      "title": "On Listening: Reflections on the First Collective Responsibility Forum"
+    },
+    {
+      "id": "626",
+      "url": "/2019/07/08/from-the-recession-forward/",
+      "title": "From the Recession Forward: Reflections Following Collective Responsibility Forum 1"
+    },
+    {
+      "id": "550",
+      "url": "/2019/06/24/developing-imagination/",
+      "title": "Developing Imagination"
+    },
+    {
+      "id": "544",
+      "url": "/2019/06/19/fostering-transparency-in-grant-writing-reflections-on-collective-responsibility-forum-1/",
+      "title": "Fostering Transparency in Grant Writing: Reflections on Collective Responsibility Forum 1"
+    },
+    {
+      "id": "148",
+      "url": "/2019/01/10/forum-1-scheduled/",
+      "title": "Forum 1 scheduled"
+    },
+    {
+      "id": "82",
+      "url": "/2018/11/09/survey-on-experiences-of-grant-funded-digital-lam-workers/",
+      "title": "Survey on experiences of grant-funded digital LAM workers"
+    },
+    {
+      "id": "69",
+      "url": "/2018/10/25/seeking-funded-participants-for-collective-responsibility/",
+      "title": "Seeking funded participants for Collective Responsibility"
+    }
+  ],
+  "shortcodes": []
+}
