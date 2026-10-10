@@ -9,15 +9,27 @@
   },
   "scripts": {
     "dev": "eleventy --serve",
-    "build": "eleventy",
+    "build": "node scripts/build.mjs",
     "test": "node --test tests/*.test.mjs",
     "verify": "node scripts/verify-archive.mjs",
     "import:wordpress": "node scripts/import-wordpress.mjs",
-    "import:assets": "node scripts/archive-assets.mjs"
+    "import:assets": "node scripts/archive-assets.mjs",
+    "check": "node scripts/check.mjs",
+    "package": "node scripts/package.mjs",
+    "assets:refresh": "node scripts/refresh-checksums.mjs",
+    "format": "prettier --write scripts tests eleventy.config.js src/assets README.md .github",
+    "format:check": "prettier --check scripts tests eleventy.config.js src/assets README.md .github",
+    "import:promote": "node scripts/promote-import.mjs",
+    "import:fixture": "node scripts/create-public-fixture.mjs",
+    "audit:browser": "node scripts/audit-browser.mjs",
+    "pdf:metadata": "node scripts/pdf-metadata.mjs"
   },
   "devDependencies": {
     "@11ty/eleventy": "3.1.6",
+    "axe-core": "4.14.0",
     "cheerio": "1.2.0",
-    "fast-xml-parser": "5.11.2"
+    "fast-xml-parser": "5.11.2",
+    "playwright": "1.64.0",
+    "prettier": "3.9.9"
   }
 }

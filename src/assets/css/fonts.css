@@ -1,89 +1,102 @@
 @font-face {
-  font-family: 'Inconsolata';
+  font-family: "Inconsolata";
   font-style: normal;
   font-weight: 400;
   font-stretch: normal;
-  src: url("/assets/vendor/81d8d09c4ca0437f-QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp4U8WRP2kg.ttf") format('truetype');
+  src: url("/assets/vendor/81d8d09c4ca0437f-QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp4U8WRP2kg.ttf")
+    format("truetype");
 }
 @font-face {
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   font-style: italic;
   font-weight: 400;
   font-stretch: normal;
-  src: url("/assets/vendor/58c1bf57868d5660-u-4B0qyriQwlOrhSvowK_l5-eTxCVx0ZbwLvKH2Gk9hLmp0v5yA-xXPqCzLvPee1XYk_XSf-FmTCUG35AvQ.ttf") format('truetype');
+  src: url("/assets/vendor/58c1bf57868d5660-u-4B0qyriQwlOrhSvowK_l5-eTxCVx0ZbwLvKH2Gk9hLmp0v5yA-xXPqCzLvPee1XYk_XSf-FmTCUG35AvQ.ttf")
+    format("truetype");
 }
 @font-face {
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   font-style: italic;
   font-weight: 700;
   font-stretch: normal;
-  src: url("/assets/vendor/25663212293c4d78-u-4B0qyriQwlOrhSvowK_l5-eTxCVx0ZbwLvKH2Gk9hLmp0v5yA-xXPqCzLvPee1XYk_XSf-FmQlV235AvQ.ttf") format('truetype');
+  src: url("/assets/vendor/25663212293c4d78-u-4B0qyriQwlOrhSvowK_l5-eTxCVx0ZbwLvKH2Gk9hLmp0v5yA-xXPqCzLvPee1XYk_XSf-FmQlV235AvQ.ttf")
+    format("truetype");
 }
 @font-face {
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   font-style: italic;
   font-weight: 900;
   font-stretch: normal;
-  src: url("/assets/vendor/bd3e6f25a1e38f86-u-4B0qyriQwlOrhSvowK_l5-eTxCVx0ZbwLvKH2Gk9hLmp0v5yA-xXPqCzLvPee1XYk_XSf-FmRrV235AvQ.ttf") format('truetype');
+  src: url("/assets/vendor/bd3e6f25a1e38f86-u-4B0qyriQwlOrhSvowK_l5-eTxCVx0ZbwLvKH2Gk9hLmp0v5yA-xXPqCzLvPee1XYk_XSf-FmRrV235AvQ.ttf")
+    format("truetype");
 }
 @font-face {
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   font-style: normal;
   font-weight: 400;
   font-stretch: normal;
-  src: url("/assets/vendor/8ba0f9fd7fc73880-u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDr3icaGl3w.ttf") format('truetype');
+  src: url("/assets/vendor/8ba0f9fd7fc73880-u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDr3icaGl3w.ttf")
+    format("truetype");
 }
 @font-face {
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   font-style: normal;
   font-weight: 700;
   font-stretch: normal;
-  src: url("/assets/vendor/ed836e7791aef45a-u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDrOSAaGl3w.ttf") format('truetype');
+  src: url("/assets/vendor/ed836e7791aef45a-u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDrOSAaGl3w.ttf")
+    format("truetype");
 }
 @font-face {
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   font-style: normal;
   font-weight: 900;
   font-stretch: normal;
-  src: url("/assets/vendor/eab9cc666e1b63c5-u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDrdyAaGl3w.ttf") format('truetype');
+  src: url("/assets/vendor/eab9cc666e1b63c5-u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDrdyAaGl3w.ttf")
+    format("truetype");
 }
 @font-face {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
-  src: url("/assets/vendor/d7e78efb6a7e62b3-JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw3aX8.ttf") format('truetype');
+  src: url("/assets/vendor/d7e78efb6a7e62b3-JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw3aX8.ttf")
+    format("truetype");
 }
 @font-face {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
-  src: url("/assets/vendor/614428e402dff36c-JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w3aX8.ttf") format('truetype');
+  src: url("/assets/vendor/614428e402dff36c-JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w3aX8.ttf")
+    format("truetype");
 }
 @font-face {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: italic;
   font-weight: 400;
   font-stretch: normal;
-  src: url("/assets/vendor/5fe05ee7a5b305e3-memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWV4exQ.ttf") format('truetype');
+  src: url("/assets/vendor/5fe05ee7a5b305e3-memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWV4exQ.ttf")
+    format("truetype");
 }
 @font-face {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: italic;
   font-weight: 700;
   font-stretch: normal;
-  src: url("/assets/vendor/60c54beb00f18efd-memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjWV4exQ.ttf") format('truetype');
+  src: url("/assets/vendor/60c54beb00f18efd-memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjWV4exQ.ttf")
+    format("truetype");
 }
 @font-face {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   font-stretch: normal;
-  src: url("/assets/vendor/9d415806f0c20390-memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4uaVc.ttf") format('truetype');
+  src: url("/assets/vendor/9d415806f0c20390-memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4uaVc.ttf")
+    format("truetype");
 }
 @font-face {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
   font-stretch: normal;
-  src: url("/assets/vendor/2c02c4598e4cb430-memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4uaVc.ttf") format('truetype');
+  src: url("/assets/vendor/2c02c4598e4cb430-memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4uaVc.ttf")
+    format("truetype");
 }

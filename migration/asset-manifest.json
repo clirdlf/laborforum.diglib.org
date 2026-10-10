@@ -5,7 +5,9 @@
     "referencedBy": [
       "WordPress attachment"
     ],
-    "status": "existing"
+    "status": "existing",
+    "bytes": 88732,
+    "sha256": "7532df1439c231ee688639336ce7dfb3efcbeccdcd32bed6188ba70b180339e1"
   },
   {
     "sourceUrl": "https://laborforum.diglib.org/wp-content/uploads/sites/26/2018/10/cropped-digitized-by-google.jpg",
@@ -13,7 +15,9 @@
     "referencedBy": [
       "WordPress attachment"
     ],
-    "status": "existing"
+    "status": "existing",
+    "bytes": 148466,
+    "sha256": "3e520378aa49704fd6440ebea5f78e172558c19f48887d1d297841c35646a4aa"
   },
   {
     "sourceUrl": "https://laborforum.diglib.org/wp-content/uploads/sites/26/2018/10/imls_logo_black.jpg",
@@ -21,7 +25,9 @@
     "referencedBy": [
       "WordPress attachment"
     ],
-    "status": "existing"
+    "status": "existing",
+    "bytes": 25019,
+    "sha256": "90715f14028a819f3db56a30a02e4e966afa0b035b9d879dc3c039adff2c1d0c"
   },
   {
     "sourceUrl": "https://laborforum.diglib.org/wp-content/uploads/sites/26/2018/10/imls_logo_black-1-e1540408024261.jpg",
@@ -30,7 +36,9 @@
       "WordPress attachment",
       "Shared presentation"
     ],
-    "status": "existing"
+    "status": "existing",
+    "bytes": 9854,
+    "sha256": "fda1cbcb775b6151550ceb315d80a79a8f78d7303abbc79bccb110d86e5b1e07"
   },
   {
     "sourceUrl": "https://laborforum.diglib.org/wp-content/uploads/sites/26/2018/10/Collective_Responsibility_Participant_Self-Nomination.pdf",
@@ -41,7 +49,9 @@
     ],
     "status": "existing",
     "metadataTitle": "Collective Responsibility: Participant Self-Nomination",
-    "archivalModification": "Added PDF document-title metadata; extracted text unchanged."
+    "archivalModification": "Added PDF document-title metadata; extracted text unchanged.",
+    "bytes": 197218,
+    "sha256": "286b9f24c21de64b7d5ed4b2d793575fea201b4e69020e6aed4c87ca993731b1"
   },
   {
     "sourceUrl": "https://laborforum.diglib.org/wp-content/uploads/sites/26/2018/10/Collective_Responsibility_Worker_Experience_Survey.pdf",
@@ -52,7 +62,9 @@
     ],
     "status": "existing",
     "metadataTitle": "Collective Responsibility: Worker Experience Survey",
-    "archivalModification": "Added PDF document-title metadata; extracted text unchanged."
+    "archivalModification": "Added PDF document-title metadata; extracted text unchanged.",
+    "bytes": 322393,
+    "sha256": "5eda6c8c10bfd72809eb374e986e64e801ab8d1585873b2966dbdb51a7ba972b"
   },
   {
     "sourceUrl": "https://laborforum.diglib.org/wp-content/uploads/sites/26/2018/10/cropped-digitized-by-google-1.jpg",
@@ -61,7 +73,9 @@
       "WordPress attachment",
       "Shared presentation"
     ],
-    "status": "existing"
+    "status": "existing",
+    "bytes": 36187,
+    "sha256": "fc05498663ff6956195b3d8c0bee2ec43c8359ec42b7ea49af5ad5601bd1de69"
   },
   {
     "sourceUrl": "https://laborforum.diglib.org/wp-content/uploads/sites/26/2019/09/Collective_Responsibility_White_Paper.pdf",
@@ -72,7 +86,9 @@
     ],
     "status": "existing",
     "metadataTitle": "Collective Responsibility: Seeking Equity for Contingent Labor in Libraries, Archives, and Museums",
-    "archivalModification": "Added PDF document-title metadata; extracted text unchanged."
+    "archivalModification": "Added PDF document-title metadata; extracted text unchanged.",
+    "bytes": 629642,
+    "sha256": "d38fb693dea39e1243ad20410e29c59690384b2e1e181879fcd240f97ad32c07"
   },
   {
     "sourceUrl": "https://secure.gravatar.com/avatar/dda04e5dae72481380f8709286caf66b887b2c898b21fb6713fdb0f406941eec?s=49&d=mm&r=g",
@@ -84,7 +100,9 @@
       "/2019/06/24/developing-imagination/",
       "/2019/06/19/fostering-transparency-in-grant-writing-reflections-on-collective-responsibility-forum-1/"
     ],
-    "status": "existing"
+    "status": "existing",
+    "bytes": 1085,
+    "sha256": "6d2b596abd125ab314f9141c2f562cefc1bd85a35f0bb7d90539f0cfdfe370a7"
   },
   {
     "sourceUrl": "https://secure.gravatar.com/avatar/8a95fbcf99a562d622e2d6c6f0a8c3d96e4597478a34848a2268147490ce3d32?s=49&d=mm&r=g",
@@ -94,7 +112,9 @@
       "/2018/11/09/survey-on-experiences-of-grant-funded-digital-lam-workers/",
       "/2018/10/25/seeking-funded-participants-for-collective-responsibility/"
     ],
-    "status": "existing"
+    "status": "existing",
+    "bytes": 5987,
+    "sha256": "8ba1bb5eed55b9175e27da02cc7afdf3a336d169a086707bcae15ef2a079c73a"
   },
   {
     "sourceUrl": "https://toolkit.dobetterlabor.com/Collective_Equity_Handbook.pdf",
@@ -104,7 +124,9 @@
     ],
     "status": "existing",
     "metadataTitle": "Collective Equity: A Handbook for Designing and Evaluating Grant-Funded Positions",
-    "archivalModification": "Added PDF document-title metadata; extracted text unchanged."
+    "archivalModification": "Added PDF document-title metadata; extracted text unchanged.",
+    "bytes": 957717,
+    "sha256": "77c11e7055a04fdf7caf68cd16ad24dc793dd66a93be683b8594567e947fcee2"
   },
   {
     "sourceUrl": "https://www.imls.gov/sites/default/files/grants/lg-73-18-0236-18/proposals/lg-73-18-0236-18-full-proposal.pdf",
@@ -114,7 +136,9 @@
     ],
     "status": "existing",
     "metadataTitle": "Collective Responsibility: IMLS Grant Proposal LG-73-18-0236",
-    "archivalModification": "Added PDF document-title metadata; extracted text unchanged."
+    "archivalModification": "Added PDF document-title metadata; extracted text unchanged.",
+    "bytes": 571848,
+    "sha256": "9b955a47f2922a89c98056ea896f4f827c80e8f331b7c4e22f1e2ba9c1d82f02"
   },
   {
     "sourceUrl": "https://laborforum.diglib.org/wp-content/themes/nucleus/style.css",
@@ -122,7 +146,9 @@
     "referencedBy": [
       "Nucleus theme"
     ],
-    "status": "existing"
+    "status": "existing",
+    "bytes": 87443,
+    "sha256": "48702f4f16637de7b6a4e04b3ba5041c381de4eec9ea59ac840d6bb4e440dd56"
   },
   {
     "sourceUrl": "https://laborforum.diglib.org/wp-content/themes/nucleus/css/blocks.css",
@@ -130,7 +156,9 @@
     "referencedBy": [
       "Nucleus theme"
     ],
-    "status": "existing"
+    "status": "existing",
+    "bytes": 1998,
+    "sha256": "6eb9a0ad573a3b33e829c0f11147792321a5ca563a9e11c6191eda18cb7ed080"
   },
   {
     "sourceUrl": "https://laborforum.diglib.org/wp-content/themes/nucleus/genericons/genericons.css",
@@ -138,7 +166,10 @@
     "referencedBy": [
       "Nucleus theme"
     ],
-    "status": "existing"
+    "status": "existing",
+    "bytes": 8893,
+    "sha256": "98668dfb737a71bf0bf2e10c2a392561791bfbe97294082cf2b751ef49b24ae3",
+    "archivalModification": "Replaced missing legacy EOT/SVG fallbacks and embedded WOFF with archived local WOFF/TTF dependencies."
   },
   {
     "sourceUrl": "https://laborforum.diglib.org/wp-content/themes/nucleus/genericons/Genericons.woff",
@@ -146,7 +177,9 @@
     "referencedBy": [
       "Nucleus theme"
     ],
-    "status": "existing"
+    "status": "existing",
+    "bytes": 13988,
+    "sha256": "970a3fa15876d16dcc0fd70eb7c9ab44d733108b3ddca1a449edd0356c1b79a7"
   },
   {
     "sourceUrl": "https://laborforum.diglib.org/wp-content/themes/nucleus/genericons/Genericons.ttf",
@@ -154,7 +187,9 @@
     "referencedBy": [
       "Nucleus theme"
     ],
-    "status": "existing"
+    "status": "existing",
+    "bytes": 22188,
+    "sha256": "7cd8dcb9820d7558bcb35bde35d9923a77c8eb9d2a274366261ad55948dfed31"
   },
   {
     "sourceUrl": "https://fonts.gstatic.com/s/inconsolata/v37/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp4U8WRP2kg.ttf",
@@ -162,7 +197,9 @@
     "referencedBy": [
       "Google Fonts stylesheet"
     ],
-    "status": "existing"
+    "status": "existing",
+    "bytes": 60836,
+    "sha256": "60e61fb6d0aa49a382eec0a504f26d7f9fbbf2326c592ed9204d2933a0a3f6b1"
   },
   {
     "sourceUrl": "https://fonts.gstatic.com/s/merriweather/v33/u-4B0qyriQwlOrhSvowK_l5-eTxCVx0ZbwLvKH2Gk9hLmp0v5yA-xXPqCzLvPee1XYk_XSf-FmTCUG35AvQ.ttf",
@@ -170,7 +207,9 @@
     "referencedBy": [
       "Google Fonts stylesheet"
     ],
-    "status": "existing"
+    "status": "existing",
+    "bytes": 325164,
+    "sha256": "d682007f88715e16d37608d7818696d2afbbfc41eaebe6104a91a43b8cda89b8"
   },
   {
     "sourceUrl": "https://fonts.gstatic.com/s/merriweather/v33/u-4B0qyriQwlOrhSvowK_l5-eTxCVx0ZbwLvKH2Gk9hLmp0v5yA-xXPqCzLvPee1XYk_XSf-FmQlV235AvQ.ttf",
@@ -178,7 +217,9 @@
     "referencedBy": [
       "Google Fonts stylesheet"
     ],
-    "status": "existing"
+    "status": "existing",
+    "bytes": 325296,
+    "sha256": "730765ee884b18aec51c8a6604f1c6318fba4160da03b55d1716dfca58d4906f"
   },
   {
     "sourceUrl": "https://fonts.gstatic.com/s/merriweather/v33/u-4B0qyriQwlOrhSvowK_l5-eTxCVx0ZbwLvKH2Gk9hLmp0v5yA-xXPqCzLvPee1XYk_XSf-FmRrV235AvQ.ttf",
@@ -186,7 +227,9 @@
     "referencedBy": [
       "Google Fonts stylesheet"
     ],
-    "status": "existing"
+    "status": "existing",
+    "bytes": 325196,
+    "sha256": "23de09a38f8138357bc08ea5e535aab6501764af0aa0a6c7eaefd50db5ff8dc7"
   },
   {
     "sourceUrl": "https://fonts.gstatic.com/s/merriweather/v33/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDr3icaGl3w.ttf",
@@ -194,7 +237,9 @@
     "referencedBy": [
       "Google Fonts stylesheet"
     ],
-    "status": "existing"
+    "status": "existing",
+    "bytes": 320716,
+    "sha256": "e864293a4dc93557a11379f90b616eeeed81e409dc5f123ee43beb8c12abd59b"
   },
   {
     "sourceUrl": "https://fonts.gstatic.com/s/merriweather/v33/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDrOSAaGl3w.ttf",
@@ -202,7 +247,9 @@
     "referencedBy": [
       "Google Fonts stylesheet"
     ],
-    "status": "existing"
+    "status": "existing",
+    "bytes": 320784,
+    "sha256": "37d18e4b2cdb2e23a81c4a3d4b0cfcd8d826311a2843c859238573333ead233a"
   },
   {
     "sourceUrl": "https://fonts.gstatic.com/s/merriweather/v33/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDrdyAaGl3w.ttf",
@@ -210,7 +257,9 @@
     "referencedBy": [
       "Google Fonts stylesheet"
     ],
-    "status": "existing"
+    "status": "existing",
+    "bytes": 320508,
+    "sha256": "d5298ca6bb9a235978c59e381d7f16db83fda64a293afcbd62037f9b8b312bc5"
   },
   {
     "sourceUrl": "https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw3aX8.ttf",
@@ -218,7 +267,9 @@
     "referencedBy": [
       "Google Fonts stylesheet"
     ],
-    "status": "existing"
+    "status": "existing",
+    "bytes": 123332,
+    "sha256": "b1983963541c72837ad4258aa8344ff86853c714cecfa27dd64bd9d1327de0c8"
   },
   {
     "sourceUrl": "https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w3aX8.ttf",
@@ -226,7 +277,9 @@
     "referencedBy": [
       "Google Fonts stylesheet"
     ],
-    "status": "existing"
+    "status": "existing",
+    "bytes": 124924,
+    "sha256": "368a872dc3b0eab173bb9040ea9f480115a46efe966e39b4f2c2a6104e48ef22"
   },
   {
     "sourceUrl": "https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWV4exQ.ttf",
@@ -234,7 +287,9 @@
     "referencedBy": [
       "Google Fonts stylesheet"
     ],
-    "status": "existing"
+    "status": "existing",
+    "bytes": 52624,
+    "sha256": "785ddf6f8ec58f811e53f9b7a499bce1c223301fdb0e224d1fe2fcb40f5c9848"
   },
   {
     "sourceUrl": "https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjWV4exQ.ttf",
@@ -242,7 +297,9 @@
     "referencedBy": [
       "Google Fonts stylesheet"
     ],
-    "status": "existing"
+    "status": "existing",
+    "bytes": 52508,
+    "sha256": "f98c3c5126e27672a9f05cd61f75a0fa189db5709b594453663ce0d6a7c07e3e"
   },
   {
     "sourceUrl": "https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4uaVc.ttf",
@@ -250,7 +307,9 @@
     "referencedBy": [
       "Google Fonts stylesheet"
     ],
-    "status": "existing"
+    "status": "existing",
+    "bytes": 51144,
+    "sha256": "fcd600ea1d85ae0f523d4fba2f1a0a5767b27b1f4d3f17972fafbf5ca67b13f5"
   },
   {
     "sourceUrl": "https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4uaVc.ttf",
@@ -258,6 +317,8 @@
     "referencedBy": [
       "Google Fonts stylesheet"
     ],
-    "status": "existing"
+    "status": "existing",
+    "bytes": 51052,
+    "sha256": "cbd72d35d3e0825dd01ed04972e5e0266f7099dbd355b27a868a83346c8dd317"
   }
 ]

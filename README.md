@@ -8,9 +8,8 @@ Use Node.js **24.14.0** (`.nvmrc`) and pnpm **12.10.1** (`package.json`). Instal
 
 ```sh
 pnpm install --frozen-lockfile
-pnpm build
-pnpm test
-pnpm verify
+pnpm exec playwright install chromium
+pnpm check
 pnpm dev
 ```
 
@@ -44,23 +43,34 @@ The original export at `data/collectiveresponsibility.WordPress.2026-10-10.xml` 
 
 ### Repeat the one-time migration
 
-Only repeat imports intentionally: they overwrite the normalized archive. The original XML and live WordPress site are required, and asset recovery needs network access.
+Imports write only to ignored `output/import-staging/`. Review staged content and asset provenance before explicitly promoting with `pnpm import:promote -- --overwrite`. Promotion backs up current files under `output/import-backups/`; it replaces archival corrections, so reapply those corrections before accepting the new build. Never use imports for routine maintenance. The original XML and live WordPress site are required, and asset recovery needs network access.
 
 ```sh
 pnpm import:wordpress
-node scripts/create-public-fixture.mjs
+pnpm import:fixture
 pnpm import:assets
-pnpm build
-pnpm test
-pnpm verify
+pnpm import:promote -- --overwrite
+pnpm check
 ```
 
 The importer sanitizes invalid XML characters in memory. Asset recovery uses rendered WordPress body HTML to retain paragraph formatting, decodes public email addresses without Cloudflare scripts, preserves the export's text, and records local asset mappings. WordPress runtime scripts, analytics, contact forms, and comment submission are excluded.
 
 ## Checks and limitations
 
-The checks cover 10 published pages, 8 posts, one approved pingback, original body text, category/author routes, local PDFs/images/fonts, internal links and fragments, search behavior, comment privacy, and inactive submissions. All 30 inventoried source assets were available. Retained theme CSS contains unused legacy EOT/SVG icon-font fallbacks that are not local; modern WOFF/TTF fonts work. See the migration report for the deferred review note.
+The checks cover 10 published pages, 8 posts, one approved pingback, original body text, category/author routes, local PDFs/images/fonts, internal links and fragments, search behavior, comment privacy, and inactive submissions. All 30 inventoried source assets were available. CSS dependencies and SHA-256 checksums for all inventoried assets are checked; icon fonts use local WOFF/TTF files.
 
 External websites and historical survey links remain external and can change or become unavailable. Search requires JavaScript; published content and navigation remain available without it. The site's footer identifies it as a permanent archive. Future changes should be limited to archival corrections rather than new publishing.
 
 Nucleus 1.5.0 CSS is preserved with its original GPL v2-or-later license header and theme attribution. Font and content ownership remains with the original owners; this repository does not relicense those materials.
+
+## Long-term maintenance and recovery
+
+`pnpm check` deletes stale `_site` output, rebuilds, runs tests and integrity checks, then audits every HTML route at mobile and desktop sizes with local Chromium and axe. It also checks text enlargement, spacing, menu/Escape behavior, and search. Results are saved in ignored `output/audit/results.json`. Incomplete axe checks are reported for manual review and retained in the JSON results. Current scans include desktop navigation contrast checks that axe cannot resolve against the transparent background. Automated scans do not replace screen-reader or PDF reading-order review.
+
+Use `pnpm format` for first-party code. After an intentional asset correction, inspect the changed files and run `pnpm assets:refresh` to update the manifest. Do not refresh checksums merely to silence an unexpected mismatch.
+
+PDF title corrections are recorded in each asset's `metadataTitle` and `archivalModification`. Install ExifTool, qpdf, and Poppler, then run `pnpm pdf:metadata` to apply the recorded titles with text preservation and structural checks. The command saves changed originals in `output/pdf-originals/`. To correct a different title, update `metadataTitle` deliberately. Alternatively, use ExifTool (`exiftool -overwrite_original -Title="RECORDED TITLE" FILE`), compare `pdftotext` output before and after, and check the result with `qpdf --check FILE`. Then refresh the checksum. Keep original PDFs privately. The grant proposal still requires manual PDF accessibility remediation.
+
+`pnpm package` runs the complete checks and creates `output/releases/laborforum-archive.tar.gz` plus a SHA-256 sidecar. Preserve these alongside a repository snapshot and the private original XML in institutional storage. To recover without Node or pnpm, validate the checksum and extract the tarball into any static web host's document root. The archive contains local fonts, images, documents, search, and a CNAME file. Preserve DNS ownership and HTTPS configuration separately.
+
+CI runs quarterly as well as on changes; scheduled checks do not deploy. Review Node's support status, the pinned Node/pnpm versions, dependencies, and GitHub Actions quarterly. Apply upgrades in a branch, update the lockfile, and run `pnpm check` before merging. Dependabot opens monthly dependency proposals. GitHub Actions artifacts expire and should not be the sole preservation copy. Review `pnpm audit` findings as part of dependency maintenance; the current Eleventy dependency tree reports braces and sprintf-js advisories with no patched versions offered by the registry audit. These are build dependencies; archived pages do not load them.

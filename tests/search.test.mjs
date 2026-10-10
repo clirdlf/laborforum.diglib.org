@@ -1,6 +1,42 @@
-import {test} from 'node:test';import assert from 'node:assert/strict';import {readFileSync} from 'node:fs';
-const data=JSON.parse(readFileSync('src/_data/archive.json'));const load=()=>import('../src/assets/js/search-core.js');
-const records=[...data.pages,...data.posts].map(r=>({title:r.title,url:r.url,text:r.html}));
-test('finds project page and a post with case-insensitive multiword queries',async()=>{const {findResults}=await load();assert.ok(findResults(records,'WHITE PAPER').some(r=>r.url==='/white-paper/'));assert.ok(findResults(records,'developing imagination').some(r=>r.url.includes('/developing-imagination/')));});
-test('empty, punctuation-only, unmatched and HTML-shaped queries are safe',async()=>{const {findResults}=await load();for(const q of ['','   ','!!!','zzzzunknown','<script>alert(1)</script>'])assert.deepEqual(findResults(records,q),[],q);assert.ok(findResults(records,'grant-funded').length>0);});
-test('generated index contains all published routes as plain text',()=>{const index=JSON.parse(readFileSync('_site/search-index.json'));assert.equal(index.length,18);assert.ok(index.find(r=>r.url==='/'));for(const r of index){assert.equal(r.text.includes('<p>'),false);assert.equal(r.text.includes('data-cfemail'),false);}});
+import { test } from "node:test";
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+const data = JSON.parse(readFileSync("src/_data/archive.json"));
+const load = () => import("../src/assets/js/search-core.js");
+const records = [...data.pages, ...data.posts].map((r) => ({
+  title: r.title,
+  url: r.url,
+  text: r.html,
+}));
+test("finds project page and a post with case-insensitive multiword queries", async () => {
+  const { findResults } = await load();
+  assert.ok(
+    findResults(records, "WHITE PAPER").some((r) => r.url === "/white-paper/"),
+  );
+  assert.ok(
+    findResults(records, "developing imagination").some((r) =>
+      r.url.includes("/developing-imagination/"),
+    ),
+  );
+});
+test("empty, punctuation-only, unmatched and HTML-shaped queries are safe", async () => {
+  const { findResults } = await load();
+  for (const q of [
+    "",
+    "   ",
+    "!!!",
+    "zzzzunknown",
+    "<script>alert(1)</script>",
+  ])
+    assert.deepEqual(findResults(records, q), [], q);
+  assert.ok(findResults(records, "grant-funded").length > 0);
+});
+test("generated index contains all published routes as plain text", () => {
+  const index = JSON.parse(readFileSync("_site/search-index.json"));
+  assert.equal(index.length, 18);
+  assert.ok(index.find((r) => r.url === "/"));
+  for (const r of index) {
+    assert.equal(r.text.includes("<p>"), false);
+    assert.equal(r.text.includes("data-cfemail"), false);
+  }
+});
