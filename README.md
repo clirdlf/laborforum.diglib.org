@@ -59,7 +59,7 @@ The importer sanitizes invalid XML characters in memory. Asset recovery uses ren
 
 ## Checks and limitations
 
-The checks cover 10 published pages, 8 posts, one approved pingback, original body text, category/author routes, local PDFs/images/fonts, internal links and fragments, search behavior, comment privacy, and inactive submissions. All 30 recovered source assets were available.
+The checks cover 10 published pages, 8 posts, one approved pingback, original body text, category/author routes, local PDFs/images/fonts, internal links and fragments, search behavior, comment privacy, and inactive submissions. All 30 inventoried source assets were available. Retained theme CSS contains unused legacy EOT/SVG icon-font fallbacks that are not local; modern WOFF/TTF fonts work. See the migration report for the deferred review note.
 
 External websites and historical survey links remain external and can change or become unavailable. Search requires JavaScript; published content and navigation remain available without it. The site's footer identifies it as a permanent archive. Future changes should be limited to archival corrections rather than new publishing.
 
