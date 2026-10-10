@@ -1,0 +1,313 @@
+[
+  {
+    "sourceUrl": "https://laborforum.diglib.org/wp-content/uploads/sites/26/2018/10/digitized-by-google.jpg",
+    "localPath": "/wp-content/uploads/sites/26/2018/10/digitized-by-google.jpg",
+    "referencedBy": [
+      "WordPress attachment"
+    ],
+    "status": "downloaded",
+    "bytes": 88732,
+    "contentType": "image/jpeg"
+  },
+  {
+    "sourceUrl": "https://laborforum.diglib.org/wp-content/uploads/sites/26/2018/10/cropped-digitized-by-google.jpg",
+    "localPath": "/wp-content/uploads/sites/26/2018/10/cropped-digitized-by-google.jpg",
+    "referencedBy": [
+      "WordPress attachment"
+    ],
+    "status": "downloaded",
+    "bytes": 148466,
+    "contentType": "image/jpeg"
+  },
+  {
+    "sourceUrl": "https://laborforum.diglib.org/wp-content/uploads/sites/26/2018/10/imls_logo_black.jpg",
+    "localPath": "/wp-content/uploads/sites/26/2018/10/imls_logo_black.jpg",
+    "referencedBy": [
+      "WordPress attachment"
+    ],
+    "status": "downloaded",
+    "bytes": 25019,
+    "contentType": "image/jpeg"
+  },
+  {
+    "sourceUrl": "https://laborforum.diglib.org/wp-content/uploads/sites/26/2018/10/imls_logo_black-1-e1540408024261.jpg",
+    "localPath": "/wp-content/uploads/sites/26/2018/10/imls_logo_black-1-e1540408024261.jpg",
+    "referencedBy": [
+      "WordPress attachment",
+      "Shared presentation"
+    ],
+    "status": "downloaded",
+    "bytes": 9854,
+    "contentType": "image/jpeg"
+  },
+  {
+    "sourceUrl": "https://laborforum.diglib.org/wp-content/uploads/sites/26/2018/10/Collective_Responsibility_Participant_Self-Nomination.pdf",
+    "localPath": "/wp-content/uploads/sites/26/2018/10/Collective_Responsibility_Participant_Self-Nomination.pdf",
+    "referencedBy": [
+      "WordPress attachment",
+      "/2018/10/25/seeking-funded-participants-for-collective-responsibility/"
+    ],
+    "status": "downloaded",
+    "bytes": 193428,
+    "contentType": "application/pdf"
+  },
+  {
+    "sourceUrl": "https://laborforum.diglib.org/wp-content/uploads/sites/26/2018/10/Collective_Responsibility_Worker_Experience_Survey.pdf",
+    "localPath": "/wp-content/uploads/sites/26/2018/10/Collective_Responsibility_Worker_Experience_Survey.pdf",
+    "referencedBy": [
+      "WordPress attachment",
+      "/2018/11/09/survey-on-experiences-of-grant-funded-digital-lam-workers/"
+    ],
+    "status": "downloaded",
+    "bytes": 318609,
+    "contentType": "application/pdf"
+  },
+  {
+    "sourceUrl": "https://laborforum.diglib.org/wp-content/uploads/sites/26/2018/10/cropped-digitized-by-google-1.jpg",
+    "localPath": "/wp-content/uploads/sites/26/2018/10/cropped-digitized-by-google-1.jpg",
+    "referencedBy": [
+      "WordPress attachment",
+      "Shared presentation"
+    ],
+    "status": "downloaded",
+    "bytes": 36187,
+    "contentType": "image/jpeg"
+  },
+  {
+    "sourceUrl": "https://laborforum.diglib.org/wp-content/uploads/sites/26/2019/09/Collective_Responsibility_White_Paper.pdf",
+    "localPath": "/wp-content/uploads/sites/26/2019/09/Collective_Responsibility_White_Paper.pdf",
+    "referencedBy": [
+      "WordPress attachment",
+      "/white-paper/"
+    ],
+    "status": "downloaded",
+    "bytes": 625744,
+    "contentType": "application/pdf"
+  },
+  {
+    "sourceUrl": "https://secure.gravatar.com/avatar/dda04e5dae72481380f8709286caf66b887b2c898b21fb6713fdb0f406941eec?s=49&d=mm&r=g",
+    "localPath": "/assets/vendor/64d5d14893e4eec0-dda04e5dae72481380f8709286caf66b887b2c898b21fb6713fdb0f406941eec",
+    "referencedBy": [
+      "/2019/08/14/reflections-on-temporary-appointments-and-innovation-diversity-culture-in-libraries-and-archives/",
+      "/2019/07/23/on-listening-reflections-on-the-first-collective-responsibility-forum/",
+      "/2019/07/08/from-the-recession-forward/",
+      "/2019/06/24/developing-imagination/",
+      "/2019/06/19/fostering-transparency-in-grant-writing-reflections-on-collective-responsibility-forum-1/"
+    ],
+    "status": "downloaded",
+    "bytes": 1085,
+    "contentType": "image/jpeg"
+  },
+  {
+    "sourceUrl": "https://secure.gravatar.com/avatar/8a95fbcf99a562d622e2d6c6f0a8c3d96e4597478a34848a2268147490ce3d32?s=49&d=mm&r=g",
+    "localPath": "/assets/vendor/dd30eb8516be0c26-8a95fbcf99a562d622e2d6c6f0a8c3d96e4597478a34848a2268147490ce3d32",
+    "referencedBy": [
+      "/2019/01/10/forum-1-scheduled/",
+      "/2018/11/09/survey-on-experiences-of-grant-funded-digital-lam-workers/",
+      "/2018/10/25/seeking-funded-participants-for-collective-responsibility/"
+    ],
+    "status": "downloaded",
+    "bytes": 5987,
+    "contentType": "image/png"
+  },
+  {
+    "sourceUrl": "https://toolkit.dobetterlabor.com/Collective_Equity_Handbook.pdf",
+    "localPath": "/assets/vendor/fd304a6ccd76b4bd-Collective_Equity_Handbook.pdf",
+    "referencedBy": [
+      "/handbook/"
+    ],
+    "status": "downloaded",
+    "bytes": 953857,
+    "contentType": "application/pdf"
+  },
+  {
+    "sourceUrl": "https://www.imls.gov/sites/default/files/grants/lg-73-18-0236-18/proposals/lg-73-18-0236-18-full-proposal.pdf",
+    "localPath": "/assets/vendor/1d5f4411b71b0785-lg-73-18-0236-18-full-proposal.pdf",
+    "referencedBy": [
+      "/2019/06/19/fostering-transparency-in-grant-writing-reflections-on-collective-responsibility-forum-1/"
+    ],
+    "status": "downloaded",
+    "bytes": 566701,
+    "contentType": "application/pdf"
+  },
+  {
+    "sourceUrl": "https://laborforum.diglib.org/wp-content/themes/nucleus/style.css",
+    "localPath": "/wp-content/themes/nucleus/style.css",
+    "referencedBy": [
+      "Nucleus theme"
+    ],
+    "status": "downloaded",
+    "bytes": 87443,
+    "contentType": "text/css"
+  },
+  {
+    "sourceUrl": "https://laborforum.diglib.org/wp-content/themes/nucleus/css/blocks.css",
+    "localPath": "/wp-content/themes/nucleus/css/blocks.css",
+    "referencedBy": [
+      "Nucleus theme"
+    ],
+    "status": "downloaded",
+    "bytes": 1998,
+    "contentType": "text/css"
+  },
+  {
+    "sourceUrl": "https://laborforum.diglib.org/wp-content/themes/nucleus/genericons/genericons.css",
+    "localPath": "/wp-content/themes/nucleus/genericons/genericons.css",
+    "referencedBy": [
+      "Nucleus theme"
+    ],
+    "status": "downloaded",
+    "bytes": 28266,
+    "contentType": "text/css"
+  },
+  {
+    "sourceUrl": "https://laborforum.diglib.org/wp-content/themes/nucleus/genericons/Genericons.woff",
+    "localPath": "/wp-content/themes/nucleus/genericons/Genericons.woff",
+    "referencedBy": [
+      "Nucleus theme"
+    ],
+    "status": "downloaded",
+    "bytes": 13988,
+    "contentType": "font/woff"
+  },
+  {
+    "sourceUrl": "https://laborforum.diglib.org/wp-content/themes/nucleus/genericons/Genericons.ttf",
+    "localPath": "/wp-content/themes/nucleus/genericons/Genericons.ttf",
+    "referencedBy": [
+      "Nucleus theme"
+    ],
+    "status": "downloaded",
+    "bytes": 22188,
+    "contentType": "font/ttf"
+  },
+  {
+    "sourceUrl": "https://fonts.gstatic.com/s/inconsolata/v37/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp4U8WRP2kg.ttf",
+    "localPath": "/assets/vendor/81d8d09c4ca0437f-QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp4U8WRP2kg.ttf",
+    "referencedBy": [
+      "Google Fonts stylesheet"
+    ],
+    "status": "downloaded",
+    "bytes": 60836,
+    "contentType": "font/ttf"
+  },
+  {
+    "sourceUrl": "https://fonts.gstatic.com/s/merriweather/v33/u-4B0qyriQwlOrhSvowK_l5-eTxCVx0ZbwLvKH2Gk9hLmp0v5yA-xXPqCzLvPee1XYk_XSf-FmTCUG35AvQ.ttf",
+    "localPath": "/assets/vendor/58c1bf57868d5660-u-4B0qyriQwlOrhSvowK_l5-eTxCVx0ZbwLvKH2Gk9hLmp0v5yA-xXPqCzLvPee1XYk_XSf-FmTCUG35AvQ.ttf",
+    "referencedBy": [
+      "Google Fonts stylesheet"
+    ],
+    "status": "downloaded",
+    "bytes": 325164,
+    "contentType": "font/ttf"
+  },
+  {
+    "sourceUrl": "https://fonts.gstatic.com/s/merriweather/v33/u-4B0qyriQwlOrhSvowK_l5-eTxCVx0ZbwLvKH2Gk9hLmp0v5yA-xXPqCzLvPee1XYk_XSf-FmQlV235AvQ.ttf",
+    "localPath": "/assets/vendor/25663212293c4d78-u-4B0qyriQwlOrhSvowK_l5-eTxCVx0ZbwLvKH2Gk9hLmp0v5yA-xXPqCzLvPee1XYk_XSf-FmQlV235AvQ.ttf",
+    "referencedBy": [
+      "Google Fonts stylesheet"
+    ],
+    "status": "downloaded",
+    "bytes": 325296,
+    "contentType": "font/ttf"
+  },
+  {
+    "sourceUrl": "https://fonts.gstatic.com/s/merriweather/v33/u-4B0qyriQwlOrhSvowK_l5-eTxCVx0ZbwLvKH2Gk9hLmp0v5yA-xXPqCzLvPee1XYk_XSf-FmRrV235AvQ.ttf",
+    "localPath": "/assets/vendor/bd3e6f25a1e38f86-u-4B0qyriQwlOrhSvowK_l5-eTxCVx0ZbwLvKH2Gk9hLmp0v5yA-xXPqCzLvPee1XYk_XSf-FmRrV235AvQ.ttf",
+    "referencedBy": [
+      "Google Fonts stylesheet"
+    ],
+    "status": "downloaded",
+    "bytes": 325196,
+    "contentType": "font/ttf"
+  },
+  {
+    "sourceUrl": "https://fonts.gstatic.com/s/merriweather/v33/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDr3icaGl3w.ttf",
+    "localPath": "/assets/vendor/8ba0f9fd7fc73880-u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDr3icaGl3w.ttf",
+    "referencedBy": [
+      "Google Fonts stylesheet"
+    ],
+    "status": "downloaded",
+    "bytes": 320716,
+    "contentType": "font/ttf"
+  },
+  {
+    "sourceUrl": "https://fonts.gstatic.com/s/merriweather/v33/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDrOSAaGl3w.ttf",
+    "localPath": "/assets/vendor/ed836e7791aef45a-u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDrOSAaGl3w.ttf",
+    "referencedBy": [
+      "Google Fonts stylesheet"
+    ],
+    "status": "downloaded",
+    "bytes": 320784,
+    "contentType": "font/ttf"
+  },
+  {
+    "sourceUrl": "https://fonts.gstatic.com/s/merriweather/v33/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDrdyAaGl3w.ttf",
+    "localPath": "/assets/vendor/eab9cc666e1b63c5-u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDrdyAaGl3w.ttf",
+    "referencedBy": [
+      "Google Fonts stylesheet"
+    ],
+    "status": "downloaded",
+    "bytes": 320508,
+    "contentType": "font/ttf"
+  },
+  {
+    "sourceUrl": "https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw3aX8.ttf",
+    "localPath": "/assets/vendor/d7e78efb6a7e62b3-JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw3aX8.ttf",
+    "referencedBy": [
+      "Google Fonts stylesheet"
+    ],
+    "status": "downloaded",
+    "bytes": 123332,
+    "contentType": "font/ttf"
+  },
+  {
+    "sourceUrl": "https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w3aX8.ttf",
+    "localPath": "/assets/vendor/614428e402dff36c-JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w3aX8.ttf",
+    "referencedBy": [
+      "Google Fonts stylesheet"
+    ],
+    "status": "downloaded",
+    "bytes": 124924,
+    "contentType": "font/ttf"
+  },
+  {
+    "sourceUrl": "https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWV4exQ.ttf",
+    "localPath": "/assets/vendor/5fe05ee7a5b305e3-memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWV4exQ.ttf",
+    "referencedBy": [
+      "Google Fonts stylesheet"
+    ],
+    "status": "downloaded",
+    "bytes": 52624,
+    "contentType": "font/ttf"
+  },
+  {
+    "sourceUrl": "https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjWV4exQ.ttf",
+    "localPath": "/assets/vendor/60c54beb00f18efd-memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjWV4exQ.ttf",
+    "referencedBy": [
+      "Google Fonts stylesheet"
+    ],
+    "status": "downloaded",
+    "bytes": 52508,
+    "contentType": "font/ttf"
+  },
+  {
+    "sourceUrl": "https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4uaVc.ttf",
+    "localPath": "/assets/vendor/9d415806f0c20390-memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4uaVc.ttf",
+    "referencedBy": [
+      "Google Fonts stylesheet"
+    ],
+    "status": "downloaded",
+    "bytes": 51144,
+    "contentType": "font/ttf"
+  },
+  {
+    "sourceUrl": "https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4uaVc.ttf",
+    "localPath": "/assets/vendor/2c02c4598e4cb430-memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4uaVc.ttf",
+    "referencedBy": [
+      "Google Fonts stylesheet"
+    ],
+    "status": "downloaded",
+    "bytes": 51052,
+    "contentType": "font/ttf"
+  }
+]
