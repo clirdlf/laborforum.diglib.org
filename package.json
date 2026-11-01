@@ -30,6 +30,6 @@
     "cheerio": "1.2.0",
     "fast-xml-parser": "5.11.2",
     "playwright": "1.64.0",
-    "prettier": "3.9.9"
+    "prettier": "3.9.10"
   }
 }
